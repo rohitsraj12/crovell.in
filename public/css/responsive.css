@@ -1,0 +1,470 @@
+/* media query for other devices */
+@media (min-width: 1400px) {
+    .carousel .item > img {
+        height: 770px;
+    }
+
+    #about {
+        height: 495px;
+    }
+    .about_content {
+        margin-top: -130px;
+    }
+    .about_img {
+        margin-top: -165px;
+        margin-bottom: 50px;
+    }
+    .yoga {
+        top: -110px;
+    }
+    .yoga_banner {
+        top: -90px;
+        width: 320px;
+    }
+    .yoga_img {
+        height: 555px;
+        width: 320px;
+    }
+    .btn.know_btn {
+        margin-bottom: 20px;
+    }
+
+    .coaches {
+        margin-top: 150px;
+    }
+
+
+}
+
+@media (min-width: 1230px) {
+    .container{width: 1200px;}
+    .coaches_content {
+        margin-left: 15px;
+    }
+
+}
+
+@media (max-width: 1229px) {
+    .container{width: 970px;}
+    h1 {
+        font-size: 80px;
+    }
+    .contact_info {
+        margin-left: 20px;
+    }
+    .contact_info > li {
+        padding: 0 10px;
+    }
+    #nav {
+     
+    }
+    .carousel .item > img {
+        height: 550px;
+    }
+    .carousel_caption_inner {
+        margin-top: 120px;
+        width: 500px;
+    }
+    .carousel_caption_inner > h3 {
+        font-size: 60px;
+    }
+
+    #about {
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .about_content {
+        width: auto;
+        margin-top: -55px;
+    }
+    .about_img {
+        width: 100%;
+        margin-top: -90px;
+        margin-bottom: 45px;
+    }
+    .yoga_content {
+        background: #fff none repeat scroll 0 0;
+        margin-left: -30px;
+    }
+    .yoga {
+        left: auto;
+        position: relative;
+        top: auto;
+        width: auto;
+        padding: 15px;
+    }
+    .yoga_banner {
+        left: auto;
+        position: relative;
+        top: auto;
+        width: auto;
+    }
+    .yoga_img {
+        height: auto;
+    }
+
+    #service h2 {
+        margin: 50px 0 0;
+    }
+    .service_caption {
+        bottom: -15px;
+        left: 15px;
+        right: 15px;
+    }
+    .service_caption h4 {
+        font-size: 18px;
+    }
+
+    .coaches {
+        margin-top: 50px;
+    }
+    .coaches_content {
+        height: 875px;
+        margin-left: 0;
+    }
+    .coach_item:nth-child(5) {
+        left: 530px;
+        top: 470px;
+    }
+    .coach_item:nth-child(6) {
+        left: 720px;
+        top: 70px;
+    }
+    .coach_item:nth-child(8) {
+    top: 440px;
+    left: -25px;
+}
+    .coach_item:nth-child(9) {
+        left: 100px;
+        top: 628px;
+    }
+    .coach_item:nth-child(10) {
+        left: 410px;
+        top: 348px;
+    }
+    .coach_item:nth-child(11) {
+        left: 735px;
+        top: 390px;
+    }
+    .coach_item:nth-child(12) {
+        left: 575px;
+        top: 217px;
+    }
+    .coach_item:nth-child(13) {
+        top: 490px;
+        right: 420px;
+    }
+
+    .white_shape {
+        height: 380px;
+    }
+    .about_us {
+        height: 400px;
+        background-size: contain;
+    }
+    .about_us_content {
+        width: 300px;
+    }
+
+    .footer_contact_info a {
+        font-size: 14px;
+    }
+    .footer_contact_info p {
+        margin-left: 15px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .container{width: 750px;}
+
+    .navbar-header img {
+        width: 100px;
+    }
+    .contact_info {
+        margin-left: 10px;
+    }
+    .contact_info > li {
+        padding: 0 10px;
+    }
+    .navbar-toggle {
+        display: block;
+        float: right;
+        margin-right: 0;
+        margin-top: 18px;
+        margin-left: 10px;
+        background: #fff;
+    }
+    #nav {
+        background: #da251c none repeat scroll 0 0;
+        
+        width: 100%;
+        margin-left: 0;
+        float: left !important;
+        margin-top: 15px;
+        border-top: 1px solid #ab221b;
+    }
+    .menu-section ul li {
+    display: block;
+    text-align: center;
+}
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .navbar-default .navbar-toggle:hover .icon-bar,.navbar-default .navbar-toggle:focus .icon-bar{
+        background-color: #555;
+    }
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+
+    .carousel_caption_inner {
+        margin-top: 110px;
+    }
+
+    .yoga_content {
+        margin-left: 0;
+        overflow: hidden;
+        padding-top: 40px;
+    }
+    .yoga {
+        float: left;
+        padding: 0 35px 35px;
+        width: 75%;
+    }
+    .yoga_banner {
+        width: 25%;
+        float: right;
+    }
+
+    .coaches_content {
+        height: auto;
+        margin-left: 0;
+        overflow: hidden;
+        padding: 20px 0 40px;
+    }
+
+    /* All Photo Positioning */
+    .coach_item {
+        height: 160px;
+        left: auto !important;
+        position: relative;
+        top: auto !important;
+        width: 160px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+.coach_item img{
+    width: 160px;
+    height: 160px;
+}
+
+    .white_shape {
+        width: 100%;
+    }
+    .about_us {
+        background-position: 0 0;
+        height: 400px;
+    }
+      .menu-section ul li a:hover {         
+        color: #da251c;        
+        background: #fff;
+    }
+    .menu-section ul li a {
+        padding: 20px 15px;
+    }
+    .accessories-body{
+        margin-bottom: 25px;
+    }
+    .join-now h4 { font-size: 18px;}
+    .join-btn{padding: 0 20px;}
+
+}
+
+
+@media (max-width: 767px) {
+    .container{width: 100%;}
+    h1 {
+        font-size: 70px;
+    }
+    h2 {
+        font-size: 25px;
+        line-height: 32px;
+        margin: 0 0 15px;
+    }
+
+    .navbar-header img {
+        width: 140px;
+    }
+    .contact_info {
+        width: 210px;
+        margin-left: 20px;
+        margin-top: 12px;
+    }
+    .contact_info .fa {
+        font-size: 15px;
+    }
+    .contact_info li a {
+        line-height: 0;
+    }
+
+    .navbar-default .navbar-toggle {
+        margin-top: 30px;
+        margin-right: 15px;
+    }
+    #nav {
+        margin: 0;
+    }
+    #nav ul li a {
+        font-size: 14px;
+            padding: 13px 15px;
+    }
+
+    .carousel_caption_inner > h3 {
+        font-size: 50px;
+    }
+    .carousel_caption_inner {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 120px;
+        width: calc(100% - 40px);
+    }
+
+    .yoga {
+        width: 70%;
+    }
+    .yoga_banner {
+        width: 30%;
+    }
+
+    #features {
+        padding-bottom: 150px;
+        padding-top: 60px;
+    }
+    #service h2 {
+        margin: 0;
+    }
+    .flaticon:before {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .coach_item, .coach_item img {
+        height: 120px;
+        width: 120px;
+    }
+
+    .white_shape {
+        height: 340px;
+    }
+    .about_us {
+        height: 360px;
+    }
+    .about_us_content {
+        background: rgba(255, 255, 255, 0.6) none repeat scroll 0 0;
+        height: 290px;
+        padding: 16px;
+        width: 100%;
+    }
+    .quick_link {
+        margin-left: 0;
+    }
+    .join-now-form {
+        margin-top: 25px;
+        text-align: center;
+    }
+    .footer-about-secton{padding-top: 25px;}
+    .navigation {padding: 0 15px;}
+    .accessories-section {padding: 25px 0 25px 0;}
+    .product-section h4, .gallery-section h4, .coaches h4, .accessories-section h4 {
+    font-size: 24px;
+    margin-bottom: 25px;}
+    .coaches h3 {
+    left: 12px;
+    text-align: center;
+    top: calc(50% - 10px);
+    font-size: 20px;
+    font-weight: 400;
+}
+.footer-search-by h4 {
+    margin-bottom: 11px;
+    margin-top: 20px;
+
+}
+.inner-banner {
+   height: 150px;
+    background: #ffc728 url(../images/mobile-inner-banner.jpg) no-repeat center center;
+    background-size: 100%;
+}
+.inner-banner img{display: none}
+.pd-lft{ padding-left:15px;}
+.pd-rgt{ padding-right:15px;}
+
+}
+
+@media (max-width: 479px) {
+    .navbar-header img {
+        width: 100px;
+    }
+    .navbar-default .navbar-toggle {
+        margin: 20px 20px 0 0;
+    }
+    .navbar-header > a {
+        display: block;
+        margin: 0 auto;
+        width: 160px;
+    }
+    .contact_info {
+        margin: 0 10px;
+    }
+
+    .carousel_caption_inner {
+        margin: 150px 0 0;
+        width: 100%;
+    }
+    .carousel_caption_inner > h3 {
+        font-size: 35px;
+    }
+    .carousel_caption_inner > h1 {
+        font-size: 45px;
+    }
+
+    .about_content {
+        margin-top: 0px;
+        padding: 20px;
+    }
+    .about_content > h2 {
+        text-align: center;
+    }
+    .about_img {
+        margin-bottom: 25px;
+        margin-top: -70px;
+    }
+    .yoga_banner {
+        width: 50%;
+    }
+    .yoga > h3 {
+        margin-top: 0;
+    }
+    .yoga {
+        padding: 0 20px 20px;
+        width: 50%;
+    }
+
+    #features {
+        padding-bottom: 160px;
+    }
+
+    #service h2 {
+        line-height: 35px;
+    }
+    .about_us {
+        background-size: 100% 100%;
+    }
+
+
+}
