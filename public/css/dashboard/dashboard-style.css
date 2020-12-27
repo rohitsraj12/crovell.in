@@ -1,0 +1,117 @@
+ul {
+  list-style: none;
+}
+
+.body__container {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(0, 90, 75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.log__in {
+  width: 40%;
+  background-color: #fff;
+  padding: 30px 50px;
+  border: 2px solid #5c5c5c;
+}
+
+.section__header {
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #5c5c5c;
+}
+
+.section__header header {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.row {
+  margin: 20px;
+}
+
+label {
+  width: 30%;
+}
+
+input {
+  width: 70%;
+}
+
+button {
+  width: 100%;
+  padding: 4px 0;
+}
+
+/* dashboard design */
+.wrap__dashboard {
+  display: flex;
+}
+
+.dashboard__navigation {
+  background-color: #293541;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  /* left: 0; */
+}
+
+/* dashboard navigation */
+.navigation__brand {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 20px;
+  background-color: #da251c;
+}
+nav ul li {
+  padding: 10px 0;
+}
+nav ul li a {
+  color: #ada7a6;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+  color: #ffffff;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+/* dashboard admin  */
+.dashboard__admin {
+  position: fixed;
+  background-color: #ffffff;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.dashboard__admin-wrap {
+  margin: 0 30px;
+}
+
+.page {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+/* dashboard content  */
+.dashboard__content {
+  background-color: rgb(235, 235, 235);
+  width: 100%;
+  margin-left: 250px;
+}
+
+.main__content-wrap {
+  margin: 60px 0 0 30px;
+}
+
+td img {
+  height: 30px;
+}
